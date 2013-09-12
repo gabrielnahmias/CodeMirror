@@ -1,3 +1,12 @@
+/*
+ * Created by Gabriel Nahmias as part of the OneLiner distribution available at:
+ * http://github.com/gabrielnahmias/OneLiner
+ * This theme is enhanced with (extra) features available to the forked version of
+ * CodeMirror also available from his GitHub page at:
+ * http://github.com/gabrielnahmias/CodeMirror
+ * (linked as a submodule from OneLiner)
+ */
+
 .cm-s-the-matrix.CodeMirror { background: #000000; color: #00FF00; }
 .cm-s-the-matrix span.CodeMirror-selected { background: #a8f !important; }
 .cm-s-the-matrix .CodeMirror-gutters { background: #060; border-right: 2px solid #00FF00; }
@@ -7,10 +16,10 @@
 .cm-s-the-matrix span.cm-keyword {color: #008803; font-weight: bold;}
 .cm-s-the-matrix span.cm-atom {color: #3FF;}
 .cm-s-the-matrix span.cm-number {color: #FFB94F;}
-.cm-s-the-matrix span.cm-def {color: #99C;}
-.cm-s-the-matrix span.cm-variable {color: #F6C;}
-.cm-s-the-matrix span.cm-variable-2 {color: #C6F;}
-.cm-s-the-matrix span.cm-variable-3 {color: #96F;}
+.cm-s-the-matrix span.cm-def {color: #AAA;}
+.cm-s-the-matrix span.cm-variable {color: #FF9;}
+.cm-s-the-matrix span.cm-variable-2 {color: #AA8A00;}
+.cm-s-the-matrix span.cm-variable-3 {color: #FF0;}
 .cm-s-the-matrix span.cm-property {color: #62FFA0;}
 .cm-s-the-matrix span.cm-operator {color: #999}
 .cm-s-the-matrix span.cm-comment {color: #CCCCCC;}
@@ -22,3 +31,19 @@
 .cm-s-the-matrix span.cm-bracket {color: #cc7;}
 .cm-s-the-matrix span.cm-tag {color: #FFBD40;}
 .cm-s-the-matrix span.cm-attribute {color: #FFF700;}
+
+/* Extras: Add page styles (applied to the body element) */
+.cm-s-the-matrix h1 {
+	color: #006600;
+}
+.cm-s-the-matrix header span {
+	color: #6ABFFC;
+}
+.cm-s-the-matrix .button {
+    background-color: #006600;
+    border-bottom-color: #003F00;
+}
+.cm-s-the-matrix .button:hover {
+    background-color: #003F00;
+    border-bottom-color: #001200;
+}
