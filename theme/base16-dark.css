@@ -31,3 +31,20 @@
 .cm-s-base16-dark span.cm-link {color: #aa759f;}
 
 .cm-s-base16-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+
+/* Extras: Add page styles (applied to the body element [just add the theme class
+		   previously stated in place of each .cm-s-])
+.cm-s- h1 {
+	color: #1F4661;
+}
+.cm-s- header span {
+	color: #333333;
+}
+.cm-s- .button {
+    background-color: #1F4661;
+    border-bottom-color: #0E2B3F;
+}
+.cm-s- .button:hover {
+    background-color: #14374F;
+    border-bottom-color: #061B28;
+}*/

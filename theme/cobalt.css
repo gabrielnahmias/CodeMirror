@@ -16,3 +16,20 @@
 .cm-s-cobalt span.cm-bracket { color: #d8d8d8; }
 .cm-s-cobalt span.cm-builtin, .cm-s-cobalt span.cm-special { color: #ff9e59; }
 .cm-s-cobalt span.cm-link { color: #845dc4; }
+
+/* Extras: Add page styles (applied to the body element [just add the theme class
+		   previously stated in place of each .cm-s-])
+.cm-s- h1 {
+	color: #1F4661;
+}
+.cm-s- header span {
+	color: #333333;
+}
+.cm-s- .button {
+    background-color: #1F4661;
+    border-bottom-color: #0E2B3F;
+}
+.cm-s- .button:hover {
+    background-color: #14374F;
+    border-bottom-color: #061B28;
+}*/
