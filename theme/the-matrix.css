@@ -51,10 +51,8 @@
     background-image: url("img/the-matrix_ui-icons_6da8d5_256x240.png");
 }
 .cm-s-the-matrix .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    background: url("images/ui-bg_glass_85_dfeffc_1x400.png") repeat-x scroll 50% 50% #DFEFFC;
-    border: 1px solid #C5DBEC;
-    color: #2E6E9E;
-    font-weight: bold;
+    background: #6F9;
+    border-color: #C5DBEC;
 }
 .cm-s-the-matrix .ui-state-hover, .cm-s-the-matrix .ui-widget-content .ui-state-hover,
 .cm-s-the-matrix .ui-widget-header .ui-state-hover, .cm-s-the-matrix .ui-state-focus,
