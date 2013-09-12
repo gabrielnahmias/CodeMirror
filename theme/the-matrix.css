@@ -50,7 +50,8 @@
 .cm-s-the-matrix .ui-state-default .ui-icon {
     background-image: url("img/the-matrix_ui-icons_6da8d5_256x240.png");
 }
-.cm-s-the-matrix .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+.cm-s-the-matrix .ui-state-default, .cm-s-the-matrix .ui-widget-content .ui-state-default,
+.cm-s-the-matrix .ui-widget-header .ui-state-default {
     background: #6F9;
     border-color: #C5DBEC;
 }
