@@ -47,3 +47,23 @@
     background-color: #003F00;
     border-bottom-color: #001200;
 }
+.cm-s-the-matrix .ui-state-default .ui-icon {
+    background-image: url("img/the-matrix_ui-icons_6da8d5_256x240.png");
+}
+.cm-s-the-matrix .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: url("images/ui-bg_glass_85_dfeffc_1x400.png") repeat-x scroll 50% 50% #DFEFFC;
+    border: 1px solid #C5DBEC;
+    color: #2E6E9E;
+    font-weight: bold;
+}
+.cm-s-the-matrix .ui-state-hover, .cm-s-the-matrix .ui-widget-content .ui-state-hover,
+.cm-s-the-matrix .ui-widget-header .ui-state-hover, .cm-s-the-matrix .ui-state-focus,
+.cm-s-the-matrix .ui-widget-content .ui-state-focus, .cm-s-the-matrix .ui-widget-header .ui-state-focus {
+	border-color: #43A06A;
+}
+.cm-s-the-matrix .ui-widget-content {
+	border-color: #99B671;
+}
+.cm-s-the-matrix .ui-widget-header {
+	background-image: url("img/the-matrix_ui-bg_gloss-wave_55_5c9ccc_500x100.png");
+}
