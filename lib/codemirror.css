@@ -238,6 +238,12 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 .CodeMirror-focused div.CodeMirror-cursor {
   visibility: visible;
 }
+.CodeMirror-focused .cm-matchhighlight {
+	/*background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFklEQVQI12NgYGBgkKzc8x9CMDAwAAAmhwSbidEoSQAAAABJRU5ErkJggg==") !important;
+	background-position: bottom;
+	background-repeat: repeat-x;*/
+	border-bottom: 1px dashed #FF0000;
+}
 
 .CodeMirror-selected { background: #d9d9d9; }
 .CodeMirror-focused .CodeMirror-selected { background: #d7d4f0; }

@@ -7,13 +7,13 @@
  * (linked as a submodule from OneLiner)
  */
 
-.cm-s-the-matrix.CodeMirror { background: #000000; color: #00FF00; }
+/*Extra:*/body.cm-s-the-matrix/*/*/, .cm-s-the-matrix.CodeMirror { background: #000000; color: #00FF00; }
 .cm-s-the-matrix span.CodeMirror-selected { background: #a8f !important; }
 .cm-s-the-matrix .CodeMirror-gutters { background: #060; border-right: 2px solid #00FF00; }
 .cm-s-the-matrix .CodeMirror-linenumber { color: #FFFFFF; }
 .cm-s-the-matrix .CodeMirror-cursor { border-left: 1px solid #00FF00 !important; }
 
-.cm-s-the-matrix span.cm-keyword {color: #008803; font-weight: bold;}
+.cm-s-the-matrix span.cm-keyword {color: #005500; font-weight: bold;}
 .cm-s-the-matrix span.cm-atom {color: #3FF;}
 .cm-s-the-matrix span.cm-number {color: #FFB94F;}
 .cm-s-the-matrix span.cm-def {color: #AAA;}
@@ -24,6 +24,7 @@
 .cm-s-the-matrix span.cm-operator {color: #999}
 .cm-s-the-matrix span.cm-comment {color: #CCCCCC;}
 .cm-s-the-matrix span.cm-string {color: #39C;}
+.cm-s-the-matrix span.cm-string-2 {color: #C39;}
 .cm-s-the-matrix span.cm-meta {color: #FC4B4B; font-weight: bold;}
 .cm-s-the-matrix span.cm-error {color: #FF0000;}
 .cm-s-the-matrix span.cm-qualifier {color: #FFF700;}
@@ -31,6 +32,8 @@
 .cm-s-the-matrix span.cm-bracket {color: #cc7;}
 .cm-s-the-matrix span.cm-tag {color: #FFBD40;}
 .cm-s-the-matrix span.cm-attribute {color: #FFF700;}
+.cm-s-the-matrix .CodeMirror-selected  {background-color: #333333 !important;}
+.cm-s-the-matrix .CodeMirror-selectedtext {color: #FFFF33;}
 
 /* Extras: Add page styles (applied to the body element) */
 .cm-s-the-matrix h1 {
@@ -39,16 +42,19 @@
 .cm-s-the-matrix header span {
 	color: #6ABFFC;
 }
+.cm-s-the-matrix #input_wrapper {
+	border: 2px solid #006600;
+}
 .cm-s-the-matrix .button {
     background-color: #006600;
     border-bottom-color: #003F00;
 }
 .cm-s-the-matrix .button:hover {
-    background-color: #003F00;
-    border-bottom-color: #001200;
+    background-color: #004900;
+    border-bottom-color: #002500;
 }
-.cm-s-the-matrix .ui-state-default .ui-icon {
-    background-image: url("img/the-matrix_ui-icons_6da8d5_256x240.png");
+.cm-s-the-matrix .ui-icon {
+    background-image: url("img/the-matrix_ui-icons_469bdd_256x240.png") !important;
 }
 .cm-s-the-matrix .ui-state-default, .cm-s-the-matrix .ui-widget-content .ui-state-default,
 .cm-s-the-matrix .ui-widget-header .ui-state-default {
